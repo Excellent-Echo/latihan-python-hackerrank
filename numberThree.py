@@ -2,16 +2,16 @@
 
 def migratoryBirds(n, arr):
     # Write your code here
-    count = [0] * 6
+    bird = [0, 0, 0, 0, 0, 0]
 
-    for bird in arr:
-        count[bird] += 1
+    for number in arr:
+        bird[number] += 1
 
-    maxs = max(count)
-    for n in range(0, len(count)):
-        print("index {}: {}".format(n, count[n]))
-        if count[n] >= maxs:
-            maxs = count[n]
+    maxs = max(bird)
+    for n in range(0, len(bird)):
+        print("index {}: {}".format(n, bird[n]))
+        if bird[n] >= maxs:
+            maxs = bird[n]
     print(maxs)
 
     return maxs
