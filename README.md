@@ -8,7 +8,7 @@
 https://www.hackerrank.com/challenges/sock-merchant/problem
 ```
 
-### soal 2
+### soal 2 ✔️
 ```
 https://www.hackerrank.com/challenges/angry-professor/problem
 ```
