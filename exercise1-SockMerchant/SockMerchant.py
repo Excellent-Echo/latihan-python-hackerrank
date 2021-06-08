@@ -4,7 +4,7 @@ import random
 import re
 import sys
 
-def sock_merchant(n, ar):
+def sockMerchant(n, ar):
     unique_color = set(ar)
     amount_color = {color: 0 for color in unique_color}
     for color in ar:
@@ -18,6 +18,6 @@ if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     n = int(input().strip())
     ar = list(map(int, input().rstrip().split()))
-    result = sock_merchant(n, ar)
+    result = sockMerchant(n, ar)
     fptr.write(str(result) + '\n')
     fptr.close()
