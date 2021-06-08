@@ -1,16 +1,17 @@
 def angryProfessor(k, a):
     # Write your code here
-    temp = {}
-    hasil = 'YES'
+    temp = 0
 
     for data in a:
         if data <= 0:
-            temp[data] = data
+            temp += 1
 
     # print("kapasitas", k)
     # print("tepat waktu", len(temp))
-    if len(temp) >= k:
+    if temp >= k:
         hasil = "NO"
+    else:
+        hasil = "YES"
 
     return hasil
 
