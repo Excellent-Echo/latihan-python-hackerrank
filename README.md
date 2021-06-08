@@ -3,7 +3,7 @@
 ## silahkan solve soal berikut : bisa dikerjakan di hackerrank atau di vs code masing masing
 - NB : jika dikerjakan di hackerrank mohon di capture hasil solvenya
 
-### soal 1
+### soal 1 ✔️
 ```
 https://www.hackerrank.com/challenges/sock-merchant/problem
 ```
