@@ -5,7 +5,7 @@ import re
 import sys
 
 
-def migratoryBirds(arr):
+def migratory_birds(arr):
     highest_count = 0
     highest_bird = 0
     for i in range (1, 6):
@@ -20,6 +20,6 @@ if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     arr_count = int(input().strip())
     arr = list(map(int, input().rstrip().split()))
-    result = migratoryBirds(arr)
+    result = migratory_birds(arr)
     fptr.write(str(result) + '\n')
     fptr.close()
