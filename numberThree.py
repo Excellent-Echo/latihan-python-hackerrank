@@ -9,12 +9,13 @@ def migratoryBirds(n, arr):
 
     maxs = max(bird)
     for n in range(0, len(bird)):
-        print("index {}: {}".format(n, bird[n]))
         if bird[n] >= maxs:
             maxs = bird[n]
-    print(maxs)
 
-    return maxs
+    index = bird.index(maxs)
+    # print('The index of e:', index)
+
+    return index
 
 
 n = 6
