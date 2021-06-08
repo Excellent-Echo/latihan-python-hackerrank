@@ -13,7 +13,7 @@ https://www.hackerrank.com/challenges/sock-merchant/problem
 https://www.hackerrank.com/challenges/angry-professor/problem
 ```
 
-### soal 3
+### soal 3 ✔️
 ```
 https://www.hackerrank.com/challenges/migratory-birds/problem
 ```
